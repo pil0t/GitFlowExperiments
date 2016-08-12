@@ -22,7 +22,7 @@ namespace GitFlowExperiments
             Console.WriteLine("New FeatureTWO!");
 
 
-            Console.WriteLine("Credentials enabled");
+            Console.WriteLine("Credentials enabled!!!!");
             
         }
     }
