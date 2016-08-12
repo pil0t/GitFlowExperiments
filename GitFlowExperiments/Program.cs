@@ -21,7 +21,7 @@ namespace GitFlowExperiments
 
             Console.WriteLine("New FeatureTWO!");
 
-            //SOMETHING OLOLO!
+            //SOMETHING OLOLO! just for trigger build
 
             Console.WriteLine("Credentials enabled!!!!");
             Console.WriteLine("Credentials enab222led!!!!");
