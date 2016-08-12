@@ -20,6 +20,10 @@ namespace GitFlowExperiments
             Console.WriteLine("Release ONE 11"); // Release changes
 
             Console.WriteLine("New FeatureTWO!");
+
+
+            Console.WriteLine("Credentials enabled");
+            
         }
     }
 }
