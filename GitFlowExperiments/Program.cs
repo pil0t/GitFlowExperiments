@@ -14,6 +14,8 @@ namespace GitFlowExperiments
             Console.WriteLine("New Feature Implemented!"); // Some changes
 
             Console.WriteLine("One more New Version Feature!"); // more changes
+
+            Console.WriteLine("Release ONE");
         }
     }
 }
