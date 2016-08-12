@@ -25,6 +25,12 @@ namespace GitFlowExperiments
             Console.WriteLine("Credentials enabled!!!!");
             Console.WriteLine("Credentials enab222led!!!!");
             
+            NewMethod();
+        }
+
+        public static void NewMethod()
+        {
+            
         }
     }
 }
