@@ -31,7 +31,7 @@ namespace GitFlowExperiments
         public static void NewMethod()
         {
             //ololo
-            //More to this feature
+            //More to this feature aaa
         }
     }
 }
