@@ -10,6 +10,8 @@ namespace GitFlowExperiments
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("More FEATURES!!!");
+            
             Console.WriteLine("Hello world!");
             Console.WriteLine("New Feature Implemented!"); // Some changes
 
