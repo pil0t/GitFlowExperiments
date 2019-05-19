@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace GitFlowExperiments
 {
+    public class Something {}
+    
+    public interface IFooBar {
+    }
+    
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
