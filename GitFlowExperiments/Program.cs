@@ -10,12 +10,11 @@ namespace GitFlowExperiments
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("New Feature Implemented!"); // Some changes
-
-            Console.WriteLine("One more New Version Feature!"); // more changes
-
-            Console.WriteLine("Release ONE 11"); // Release changes
+            string fooBar = nameof(fooBar);
+            TestMe tm = new TestMe();
+            string mp = tm.MyProperty;
+            fooBar += mp;
+            Console.WriteLine(fooBar);
         }
     }
 }
