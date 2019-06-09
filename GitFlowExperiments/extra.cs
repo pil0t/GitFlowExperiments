@@ -6,6 +6,15 @@ namespace ConsoleApp21
     public class TestMe
     {
         public Foo MyProperty { get; set; } = new Foo();
+
+        public void Do(string s)
+        {
+            Console.WriteLine("AAAA");
+        }
+        public void Do(Foo s)
+        {
+            Console.WriteLine("BBBB");
+        }
     }
 
 
@@ -22,6 +31,16 @@ namespace ConsoleApp21
         public static implicit operator string(Foo source)
         {
             return "test my string";
+        }
+        public static string operator +(Foo a, string b)
+
+        {
+            return "surprize!";
+        }
+        public static string operator +(string b, Foo a)
+
+        {
+            return "surprize!";
         }
     }
 
